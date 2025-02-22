@@ -14,7 +14,7 @@ class DetailAppbar extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(10),
       child: Row(
-        children: [
+        children: [ 
           IconButton(
               style: IconButton.styleFrom(
                   backgroundColor: Colors.white, padding: const EdgeInsets.all(15)),
