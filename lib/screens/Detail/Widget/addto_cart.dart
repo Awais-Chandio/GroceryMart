@@ -40,7 +40,7 @@ class _AddtoCartState extends State<AddtoCart> {
                 children: [
                   IconButton(
                       onPressed: () {
-                        if (currentIndex!=1) {
+                        if (currentIndex != 1) {
                           setState(() {
                             currentIndex--;
                           });
@@ -76,14 +76,15 @@ class _AddtoCartState extends State<AddtoCart> {
                 cartProvider.toogleFavourite(widget.product);
                 final snackBar = SnackBar(
                     content: Text(
-                  "Product added to cart",
-                  style: TextStyle(
-                      fontSize: 25,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white),
-                ),
-                duration: Duration(seconds: 1,)
-                );
+                      "Product added to cart",
+                      style: TextStyle(
+                          fontSize: 25,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),
+                    ),
+                    duration: Duration(
+                      seconds: 1,
+                    ));
 
                 ScaffoldMessenger.of(context).showSnackBar(snackBar);
               },

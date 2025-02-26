@@ -14,10 +14,11 @@ class DetailAppbar extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(10),
       child: Row(
-        children: [ 
+        children: [
           IconButton(
               style: IconButton.styleFrom(
-                  backgroundColor: Colors.white, padding: const EdgeInsets.all(15)),
+                  backgroundColor: Colors.white,
+                  padding: const EdgeInsets.all(15)),
               onPressed: () {
                 Navigator.pop(context);
               },
@@ -25,7 +26,8 @@ class DetailAppbar extends StatelessWidget {
           const Spacer(),
           IconButton(
               style: IconButton.styleFrom(
-                  backgroundColor: Colors.white, padding: const EdgeInsets.all(15)),
+                  backgroundColor: Colors.white,
+                  padding: const EdgeInsets.all(15)),
               onPressed: () {},
               icon: const Icon(Icons.share_outlined)),
           const SizedBox(
@@ -33,7 +35,8 @@ class DetailAppbar extends StatelessWidget {
           ),
           IconButton(
               style: IconButton.styleFrom(
-                  backgroundColor: Colors.white, padding: const EdgeInsets.all(15)),
+                  backgroundColor: Colors.white,
+                  padding: const EdgeInsets.all(15)),
               onPressed: () {
                 Provider.toggleFavorite(product);
               },
