@@ -1,16 +1,31 @@
-# shoppix
+# GroceryMart 🛒
 
-A new Flutter project.
+GroceryMart is a modern Flutter-based grocery shopping application with beautiful UI, user-friendly navigation, and essential features for a seamless shopping experience.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- 🛍️ Product Categories (Shoes, Beauty, Fashion, Jewelry, etc.)
+- 🔍 Product Search Functionality
+- 🖼️ Image Slider Banner
+- ❤️ Wishlist/Favorites
+- 🛒 Cart Management
+- 🔐 Login & Signup Screens (no validation for now)
+- 🎯 Smooth Splash & Get Started Screen with animation
+- 📱 Responsive and clean design
+- 🚀 Built using Flutter and Provider
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| Splash Screen | Get Started | Login | Home |
+|---------------|-------------|-------|------|
+| ![Splash](https://images.pexels.com/photos/6214371/pexels-photo-6214371.jpeg) | [Your Get Started Screen] | [Login UI] | [Product Listing] |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> *Update these links with actual screenshots from your app.*
+
+## 📦 Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/GroceryMart.git
+cd GroceryMart
