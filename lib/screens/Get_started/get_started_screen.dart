@@ -10,7 +10,7 @@ class GetStartedScreen extends StatelessWidget {
         fit: StackFit.expand,
         children: [
           Image.network(
-            "https://images.pexels.com/photos/6214371/pexels-photo-6214371.jpeg",
+            "https://images.pexels.com/photos/7801878/pexels-photo-7801878.jpeg",
             fit: BoxFit.cover,
           ),
           Container(color: Colors.black.withOpacity(0.3)),
