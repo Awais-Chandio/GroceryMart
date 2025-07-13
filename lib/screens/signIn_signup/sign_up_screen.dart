@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shoppix/nav_bar_screen.dart';
 import 'package:shoppix/screens/home/home_screen.dart';
 
 class SignUpScreen extends StatelessWidget {
@@ -53,7 +54,7 @@ class SignUpScreen extends StatelessWidget {
   onPressed: () {
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (_) => const HomeScreen()),
+      MaterialPageRoute(builder: (_) => const BottomNavBar()),
     );
   },
   child: const Text('Sign Up'),

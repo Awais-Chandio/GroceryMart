@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shoppix/nav_bar_screen.dart';
 import 'package:shoppix/screens/home/home_screen.dart';
 
 class SignInScreen extends StatelessWidget {
@@ -45,7 +46,7 @@ class SignInScreen extends StatelessWidget {
   onPressed: () {
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (_) => const HomeScreen()),
+      MaterialPageRoute(builder: (_) => const BottomNavBar()),
     );
   },
   child: const Text('Log In'),
